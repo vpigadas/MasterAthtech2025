@@ -9,6 +9,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import gr.athtech.course.databinding.ActivityMainBinding;
+import gr.athtech.course.list.RecyclerActivity;
+import gr.athtech.course.network.NetworkActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, NetworkActivity.class);
                 intent.putExtra("title", "Network!!!");
+                startActivity(intent);
+            }
+        });
+
+        binding.mainBtnRecycler.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
                 startActivity(intent);
             }
         });

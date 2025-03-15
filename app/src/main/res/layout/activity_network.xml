@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".NetworkActivity">
+    tools:context=".network.NetworkActivity">
 
     <TextView
         android:id="@+id/network_txt"
