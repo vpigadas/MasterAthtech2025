@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
                 String password = binding.mainEditPassword.getText().toString();
 
                 Log.d("Login", "username:" + username + ", password:" + password);
+
                 Snackbar.make(v, "username:" + username + ", password:" + password, Snackbar.LENGTH_SHORT).show();
             }
         });
