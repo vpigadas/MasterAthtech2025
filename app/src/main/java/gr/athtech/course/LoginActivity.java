@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
 
 import gr.athtech.course.databinding.ActivityLoginBinding;
+import gr.athtech.course.network.NetworkActivity;
 
 public class LoginActivity extends AppCompatActivity {
 

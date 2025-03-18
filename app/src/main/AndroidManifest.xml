@@ -15,7 +15,10 @@
         android:theme="@style/Theme.MasterCourse"
         tools:targetApi="31">
         <activity
-            android:name=".NetworkActivity"
+            android:name=".list.RecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".network.NetworkActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
