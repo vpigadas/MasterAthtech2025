@@ -42,6 +42,13 @@ dependencies {
     implementation 'com.android.volley:volley:1.2.1'
     implementation 'com.google.code.gson:gson:2.12.1'
 
+    def room_version = "2.6.1"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    // If this project only uses Java source, use the Java annotationProcessor
+    // No additional plugins are necessary
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
