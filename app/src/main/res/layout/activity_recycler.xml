@@ -14,4 +14,11 @@
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
+    <Button
+        android:id="@+id/recycler_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REFRESH"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
