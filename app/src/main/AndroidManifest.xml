@@ -15,6 +15,9 @@
         android:theme="@style/Theme.MasterCourse"
         tools:targetApi="31">
         <activity
+            android:name=".viewmodel.ViewModelActivity"
+            android:exported="false" />
+        <activity
             android:name=".dastabase.DatabaseActivity"
             android:exported="false" />
         <activity

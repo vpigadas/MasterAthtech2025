@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewmodel.ViewModelActivity">
+
+    <TextView
+        android:id="@+id/viewmodel_txt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/viewmodel_save"
+        android:layout_width="match_parent"
+        android:text="SAVE DATA"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/viewmodel_read"
+        android:layout_width="match_parent"
+        android:text="READ DATA"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

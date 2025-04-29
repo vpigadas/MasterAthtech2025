@@ -12,6 +12,7 @@ import gr.athtech.course.dastabase.DatabaseActivity;
 import gr.athtech.course.databinding.ActivityMainBinding;
 import gr.athtech.course.list.RecyclerActivity;
 import gr.athtech.course.network.NetworkActivity;
+import gr.athtech.course.viewmodel.ViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DatabaseActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.mainBtnViewmodel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ViewModelActivity.class);
                 startActivity(intent);
             }
         });
